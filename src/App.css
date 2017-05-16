@@ -1,0 +1,46 @@
+div.container {
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: lightblue;
+  width: fit-content;
+  border-radius: 20px;
+}
+
+div.wrapper {
+  margin: 0 auto;
+  display: table;
+}
+div.wrapper:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+div.ratesColumn {
+  float: left;
+  text-align: left;
+}
+
+ul {
+  line-height: 130%;
+  margin: 0 0;
+}
+
+div.buttonsContainer {
+  margin-top: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  margin-left: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
